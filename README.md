@@ -1,40 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overview
 
-## Getting Started
+This project is designed to help you learn how to use Firebase with Next.js. The project already has a frontend with router paths to home, login, signup, and profile. You will need to connect authentication and create users, then give them the ability to add todos and show the todos of that user.
 
-First, run the development server:
+By the end of this project, you should have a solid understanding of how to use Firebase with Next.js and how to create a basic todo application with authentication.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To complete this project, follow these steps:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Set up a Firebase account and create a new project.
+2. Set up Firebase Authentication with email and password authentication enabled.
+3. Connect the sign-up and login forms to Firebase Authentication.
+4. Set up Firestore for data storage.
+5. Connect the add todo form to Firestore.
+6. Connect the display-todos component to Firestore to show only the todos of the current user.
+7. The profile page should only show the users email for the time being. You can build up on this later on.
+8. There should be a logout button enables the user to logout, the Navbar is a great place to put that.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Resources
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Here are some resources that may be helpful in completing this project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Firestore documentation: https://firebase.google.com/docs/firestore/quickstart#initialize
+- Firebase Authentication documentation: https://firebase.google.com/docs/auth/web/start
